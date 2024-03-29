@@ -1,3 +1,10 @@
+'''
+Treść zadania
+Zadanie 2. (spadające klocki) Każdy klocek to przedział postaci [a, b]. 
+Dany jest ciąg klocków [a1, b1], [a2, b2], ..., [an, bn]. Klocki spadają na oś liczbową w kolejności podanej w ciągu. 
+Proszę zaproponować algorytm, który oblicza ile klocków należy usunąć z listy tak, zeby każdy kolejny spadajacy klocek mieścił się w całości w tym, 
+który spadł tuż przed nim.'''
+
 def klocki(T):
 
     n = len(T) 
@@ -43,7 +50,7 @@ def longest_seq(arr, fn=lambda a, b: a > b):
     return top
 
 
-def count_removed_bricks(A: 'array of bricks spans'):
+def count_removed_bricks(A):
     n = len(A)
     A = longest_seq(A, lambda curr, prev: curr[0] >= prev[0])
     print(A)

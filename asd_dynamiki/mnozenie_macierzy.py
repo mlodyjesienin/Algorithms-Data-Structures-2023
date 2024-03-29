@@ -1,3 +1,10 @@
+'''TRESC:
+Dany jest ciąg macierzy A1,..,An. Ktoś chce policzyć iloczyn A1*A2*..*An. Macierze nie są koniecznie kwadratowe. 
+Zależnie w jakiej kolejności wykonujemy mnożenia, koszt obliczeniowy może być różny. 
+Należy podać algorytm znajdujący koszt mnożenia przy optymalbym doborze kolejności.
+'''
+
+
 def reverse(A):
     n = len(A)
     for i in range(n//2 +1):

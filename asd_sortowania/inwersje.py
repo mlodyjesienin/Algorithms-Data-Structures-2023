@@ -1,3 +1,8 @@
+# Funkcja liczaca inwersje w Tablicy T. 
+# Elementami tablicy T, moga być dowolne liczby rzeczywiste, mogą sie rowniez powtarzac
+# Opiera sie na algorytmie podobnym do merge-sorta. 
+# złozonosc nlogn 
+
 def inwersje(T):
     suma = 0
    

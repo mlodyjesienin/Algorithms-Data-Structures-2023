@@ -1,3 +1,10 @@
+#algorytm, który otrzymuje na wejściu pewien
+#ciąg n liter oraz liczbę k i wypisuje najczęściej powtarzający się podciąg długości k (jeśli ciągów
+#mogących stanowić rozwiązanie jest kilka, algorytm zwraca dowolny z nich). Można założyć, że
+#ciąg składa się wyłącznie z liter a i b.
+#Na przykład dla ciągu ababaaaabb oraz k = 3 rozwiązaniem jest zarówno ciąg aba, który
+#powtarza się dwa razy (to, że te wystąpienia na siebie nachodzą nie jest istotne). 
+
 def radix_sort_letters(t,i):
     L =[0,0]
     n = len(t)

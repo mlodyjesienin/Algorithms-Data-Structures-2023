@@ -1,5 +1,13 @@
-# F[i][w] - czy da si� rozmiescic pierwsze i aut tak, �eby zosta�o w miejsca 
-# na lewym pasie  
+'''
+Treść zadania
+Zadanie 3. (ładowanie promu) Dana jest tablica A[n] z długościami samochodów, 
+które stoją w kolejce, żeby wjechać na prom. Prom ma dwa pasy (lewy i prawy), oba długości L. Proszę napisać program, 
+który wyznacza, które samochody powinny pojechać na który pas, żeby na promie zmieściło się jak najwięcej aut. 
+Auta muszą wjeżdżąc w takiej kolejności, w jakiej są podane w tablicy A.'''
+
+# F[i][w] - czy da się rozmieścić pierwsze i auta tak, żeby zostało w miejscu 
+# na lewym pasie
+
 def prom(L,W):
     L = 100*float(L)
     L = int(L)

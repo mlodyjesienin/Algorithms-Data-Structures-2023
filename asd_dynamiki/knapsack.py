@@ -1,6 +1,7 @@
-# f(i,b) = maksymalna suma cen przedmiotow ze zbioru {0,...i} których ³¹czna
-# waga nie przekracza b. 
-# f(i,b) = max(f(i-1,b),f(i-1,b-W[i]) + P[i])
+# f(i,b) = maksymalna suma cen przedmiotÃ³w ze zbioru {0,...,i}, ktÃ³rych 
+# Å‚Ä…czna waga nie przekracza b. 
+# f(i,b) = max(f(i-1,b), f(i-1,b-W[i]) + P[i])
+
 def knapsack(W,P,B,n):
     F = [[0 for _ in range(B+1)] for _ in range(n)] 
     for b in range(W[0],B+1):

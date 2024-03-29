@@ -30,6 +30,7 @@ def heapsort(T):
         T[0], T[i] = T[i] , T[0] 
         heapify(T,0,i) 
 
+#przykladowe wywolanie
 T = [2,5,1,3,7,9,12,45,31,7]
 heapsort(T)
 print(T)

@@ -1,3 +1,12 @@
+'''
+Treść:
+(maximin) Rozważmy ciąg (ao,..., an-1) liczb naturalnych. 
+Załóżmy, że został podzielony na k spójnych podciągów: (ao,..., al1), (al1+1,..., al2), ..., (alk-1+1,..., an-1). 
+Przez wartość i-go podciągu rozumiemy sumę jego elementów a przez najgorszy podciąg rozumiemy podciąg o najmniejszej wartości 
+(rozstrzygając remisy w dowolny sposób). 
+Wartością podziału jest wartość jego najgorszego podciągu. Z
+adanie polega na znalezienie podziału ciągu (ao,..., an-1) o maksymalnej wartości.'''
+
 def maxmin(T,k):
     inf = float('inf')
     n = len(T)

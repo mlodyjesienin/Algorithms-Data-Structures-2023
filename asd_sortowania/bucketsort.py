@@ -18,9 +18,10 @@ def bucketsort(T,n,maxi,mini):
         for j in range(len(BUCKETS[i])):
             A.append(BUCKETS[i][j])
     return A 
+
+#Przykladowe wywolanie
 maxi = 189.1
 mini = 154
 n = 7
 T = [154,176,158,189,165,162,170]
-print(math.floor(0), math.ceil(0))
 print(bucketsort(T,n,maxi,mini))

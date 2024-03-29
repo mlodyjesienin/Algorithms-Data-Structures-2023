@@ -1,3 +1,11 @@
+'''
+Treść zadania
+Zadanie 7. (wędrówka po szachownicy) Dana jest szachownica A o wymiarach n x n. 
+Szachownica zawiera liczby wymierne. Należy przejść z pola (1, 1) na pole (n, n) korzystając jedynie z ruchów "w dół" oraz "w prawo". 
+Wejście na dane pole kosztuje tyle, co znajdująca się tam liczba. 
+Proszę podać algorytm znajdujący trasę o minimalnym koszcie.
+'''
+
 def szachtraveleruwu(T):
     n = len(T)
     m = len(T[0])

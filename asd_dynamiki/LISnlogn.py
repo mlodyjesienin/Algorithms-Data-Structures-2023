@@ -1,3 +1,5 @@
+#if i remember correctly, it is not my code it is code from github.com/matipl01 
+
 def binary_search(arr, val):
     left_idx = 0
     right_idx = len(arr) - 1
@@ -9,8 +11,7 @@ def binary_search(arr, val):
         else:
             right_idx = mid_idx - 1
 
-    return left_idx  # It will never exceed the left side of an array
-
+    return left_idx  
 
 def lis(arr):
     if len(arr) < 2: return len(arr)

@@ -1,3 +1,6 @@
+#magic fives algorithm
+#funkcja znajdujacy k-ty najwiekszy element w tablicy w zlozonosci teoretycznej n. 
+
 def partition(T,p,r,k):
     for i in range(p,r+1):
         if T[i] == k:
@@ -45,6 +48,7 @@ def magiczne_piatki(T,p,r,k):
     else:
         return magiczne_piatki(T,q+1,r,k)
 
+#przykladowe wywolanie
 T = [10,5,8,1,2,6,9,0,3,4]
 n = len(T)
 k = 0

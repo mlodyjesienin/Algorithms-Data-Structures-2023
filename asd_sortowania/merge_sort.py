@@ -31,7 +31,7 @@ def merge(L,R):
         j+=1
     return A
 
-
+#przykladowe wywolanie
 T = [1,3,7,2,13,4,11,6,-2,100,5,3,1,2,9] 
 n = len(T)
 print(n)

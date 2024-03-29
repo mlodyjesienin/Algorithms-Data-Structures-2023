@@ -1,3 +1,4 @@
+#Funkcja, ktora pozwala modyfikowac tablice i znajdywac za kazdym razem mediane w zlozonosci log(n)
 def left(i):
     return 2*i +1 
 def right(i):

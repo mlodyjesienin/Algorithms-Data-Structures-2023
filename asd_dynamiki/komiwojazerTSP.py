@@ -4,10 +4,15 @@
 # gdy i < j-1: f(i,j) = f(i,j-1) + d(j-1,j) - musimy sie dostac do j z j-1
 # gdy i = j-1 f(j-1,j) = min po i<j-1 ( f(i,j-1) + d(i,j))
 # O(n^2) zlozonosc
+import math 
 def TSP(A): 
+    def d(i,j):
+        nonlocal A 
+        return math.sqrt((A[i][0] - A[j][0])**2 + (A[i][1] - A[j][1])**2)
     n = len(A) # A jest posortowane 
-    D[i][j] = d(i,j) 
-    F[i][j] = float('inf')
+    D = [[d(i,j) for i in range(n)]for j in range(n)]
+    F = [[float('inf') for _ in range(n)] for _ in range(n)]
+
     def f(i,j):
         nonlocal F 
         nonlocal D 
