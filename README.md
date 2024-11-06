@@ -33,6 +33,7 @@ This repository contains implementations of various algorithms, including sortin
 This section provides solutions using dynamic programming approaches for problems such as:
 - Longest Increasing Subsequence (LIS)
 - Longest Common Subsequence (LCS)
+- Traveling Salesman Problem (TSP)
 - Knapsack Problem
 - 2D Knapsack Problem
 - Various less popular problems and exercises
